@@ -1,0 +1,76 @@
+.about__info{
+    line-height: 2rem;
+}
+
+.about__info h3{
+    color: #0e115d;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.about__para p{
+color: grey;
+font-size: 1.2rem;
+}
+
+.about__para p a{
+    text-decoration: none;
+    color: #df2020;
+}
+
+.about__para p a:hover{
+    text-decoration: underline;
+}
+
+.company__info span{
+    color: #0e115d;
+    font-size: 2.6rem;
+}
+
+.company__info span i{
+    color: #df2020;
+}
+
+.company__info p{
+    color: #0e115d;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.span__pos{
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 6.9rem;
+}
+
+.adjust__pos1 i {
+    font-size: 1.6rem;
+    font-weight: 600;
+    position: absolute;
+    top: 840px;
+    left: 335px;
+}
+
+.adjust__pos2 i{
+    font-size: 1.6rem;
+    font-weight: 600;
+    position: absolute;
+    top: 840px;
+    left: 598px;
+}
+
+.adjust__pos3 i{
+    font-size: 1.6rem;
+    font-weight: 600;
+    position: absolute;
+    top: 840px;
+    left: 895px;
+}
+.adjust__pos4 i{
+    font-size: 1.6rem;
+    font-weight: 600;
+    position: absolute;
+    top: 840px;
+    left: 1195px;
+}

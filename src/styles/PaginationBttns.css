@@ -1,0 +1,26 @@
+.PaginationBttns{
+    width: 80%;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    list-style: none;
+}
+
+.PaginationBttns a{
+    padding: 7px 19px;
+    background-color: #212245;
+    color: #fff !important;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.PaginationBttns a:hover{
+    background-color: #df2020;
+}

@@ -1,0 +1,29 @@
+.search__widget input{
+    border: none;
+}
+
+.search__widget input:focus{
+    outline: none;
+}
+
+.sorting__widget select,
+.search__widget{
+    border: 1px solid #fde4e4;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+@media only screen and (max-width:768px){
+    .search__widget{
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 0.8rem;
+    }
+
+    .sorting__widget select{
+        width: 100% !important;
+        font-size: 0.8rem;
+    }
+}

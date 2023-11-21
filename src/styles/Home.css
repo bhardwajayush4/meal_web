@@ -1,0 +1,291 @@
+.pad__align{
+    padding-top: 150px;
+}
+
+.hero__content span {
+    color: #df2020;
+}
+
+.hero__content p {
+    color: #222121;
+}
+
+.order__btns button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.order__btns button a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.order__btn {
+    background-color: #df2020;
+    color: #fff;
+    border-radius: 8px;
+    padding-left: 35px;
+}
+
+.all-order__btns {
+    background: transparent;
+}
+
+.all-order__btns a {
+    border: 1px solid #df2020;
+    padding: 6px 5px;
+    border-radius: 8px;
+    color: #222121;
+}
+
+.order__btn {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.order__btn:hover {
+    background-color: #212245;
+}
+
+.hero__service p{
+    color: #222121;
+}
+
+.cart__img p {
+    color: #222121;
+}
+
+.shipping__icon i {
+    background-color: #df2020;
+    color: #fff;
+    padding: 3px;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+.shipping__icon {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.feature__title span {
+    color: #df2020;
+}
+
+.feature__subtitle {
+    color: #df2020;
+    font-size: 1.2rem;
+}
+
+.cart__para {
+    color: #212245;
+}
+
+.text__desc{
+    color: #222121;
+}
+
+.food__items {
+    background-color: #fff;
+    padding: 17px 0;
+    border-radius: 8px;
+}
+
+.food__items button {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #df2020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.food__items button img {
+    width: 24px;
+    height: 24px;
+}
+
+.active__btn {
+    color: #fff !important;
+    border-radius: 6px;
+    background-color: #df2020 !important;
+}
+
+.food__items button:hover{
+    background-color: #df2020;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.why-tasty__treat {
+    margin-bottom: 2rem;
+}
+
+.why-tasty__title span {
+    color: #df2020;
+    font-weight: 600;
+}
+
+.why-tasty__desc {
+    color: #222121;
+    line-height: 30px;
+    margin-top: 1rem;
+}
+
+.tasty__desc i {
+    color: #df2020;
+    font-weight: 500;
+}
+
+.tasty__desc {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.desc__item {
+    color: #222121;
+    font-size: 0.9rem;
+}
+
+.testimonial__subtitle span {
+    color: #df2020;
+}
+
+.testimonial__desc {
+    color: #222121;
+    line-height: 30px;
+}
+
+.testimonial__title {
+    color: #df2020;
+    font-weight: bold;
+    font-size: 1r.2em;
+}
+
+.testimonial__subtitle {
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero__content{
+        text-align: center;
+    }
+
+    .hero__content h5{
+        font-size: 1rem;
+    }
+
+    .hero__title{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .hero__content p {
+        font-size: 0.8rem;
+        line-height: 23px;
+    }
+
+    .order__btns button{
+        font-size: 0.8rem;
+        padding: 5px 15px;
+    }
+
+    .hero__service {
+        justify-content: center;
+    }
+
+    .hero__service p{
+        font-size: 0.7rem !important;
+    }
+
+    .cart__img h6{
+        font-size: 0.8rem;
+    }
+
+    .cart__img p{
+        font-size: 0.7rem;
+        margin-bottom: 0;
+    }
+
+    .food__items{
+        padding: 13px;
+    }
+
+    .food__items button{
+        font-size: 0.8rem;
+    }
+
+    .why-tasty__desc {
+        font-size: 0.8rem;
+        line-height: 22px;
+        margin-bottom: 0;
+    }
+
+    .tasty__desc {
+        font-size: 0.8rem;
+    }
+
+    .desc__item {
+        font-size: 0.8rem;
+    }
+
+    .testimonial__title {
+        font-size: 0.8rem;
+    }
+
+    .testimonial__desc {
+        font-size: 0.8rem;
+        line-height: 23px;
+    }
+
+
+}
+@media only screen and (max-width: 576px) {
+
+    .hero__content{
+        text-align: center;
+    }
+
+    .hero__content h5{
+        font-size: 1rem;
+    }
+
+    .hero__title{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .hero__content p {
+        font-size: 0.8rem;
+        line-height: 23px;
+    }
+
+    .order__btns{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .order__btns button{
+        font-size: 0.8rem;
+        padding: 5px 15px;
+    }
+
+    .hero__service {
+        justify-content: center;
+    }
+
+    .hero__service p{
+        font-size: 0.8rem;
+    }
+
+    .why-choose__us{
+        padding-top: 0 !important;
+    }
+}

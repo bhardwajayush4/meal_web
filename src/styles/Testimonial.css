@@ -1,0 +1,24 @@
+.review__text {
+    color: #222121;
+    line-height: 30px;
+    margin: 40px 0;
+}
+
+.set__img img{
+    width: 60px;
+    height: 50px;
+}
+@media only screen and (max-width:768px){
+    .review__text{
+        font-size: 0.8rem;
+        padding-bottom: 0px;
+    }
+
+    .set__img img{
+        width: 35px;
+        height: 35px;
+    }
+    .set__img h6{
+        font-size: 0.7rem;
+    }
+}

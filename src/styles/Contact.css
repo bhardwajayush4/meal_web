@@ -1,0 +1,84 @@
+.contact__info h3 {
+    color: #df2020;
+    margin-bottom: 15px;
+}
+
+.contact__info p span {
+    color: #777;
+    font-weight: bold;
+}
+
+.contact__info p {
+    color: #777;
+    font-size: 1.2rem;
+}
+
+.contact__As span {
+    color: #df2020;
+    align-items: center;
+    padding-top: 0px;
+    font-size: 2rem;
+}
+
+.contact__As {
+    margin-bottom: 1rem;
+}
+
+.company__info {
+    align-items: center;
+    justify-content: center;
+}
+
+.company__info h5 {
+    color: rgba(6, 6, 33, 0.566);
+}
+
+.query__box {
+    width: 100%;
+}
+
+.col__query {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #df2020;
+}
+
+.text__inputs input {
+    width: 70%;
+    margin-bottom: 1rem;
+    padding: 15px 15px;
+    border: 1px solid #686aa3;
+    border-radius: 6px;
+    color: #777;
+    outline: none;
+}
+
+.text__inputs textarea {
+    width: 70%;
+    border: 1px solid #686aa3;
+    border-radius: 6px;
+    color: #777;
+    outline: none;
+    padding: 5px 5px;
+}
+
+.query h4 {
+    color: #fff;
+}
+
+.sub__btn button {
+    width: 30%;
+    align-items: center;
+    display: flex;
+    padding: 8px 15px;
+    border: 1px solid #686aa3;
+    background: #fff;
+    border-radius: 6px;
+    justify-content: center;
+    color: #777;
+    cursor: pointer;
+}
+
+.sub__btn {
+    padding: 30px 95px;
+}
